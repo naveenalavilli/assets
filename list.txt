@@ -1,0 +1,22 @@
+Folder PATH listing for volume Windows
+Volume serial number is B99F-CB70
+C:.
+³   index.html
+³   list.txt
+³   
+ÃÄÄÄ.vs
+³   ³   slnx.sqlite
+³   ³   
+³   ÀÄÄÄassets
+³       ÃÄÄÄconfig
+³       ³       applicationhost.config
+³       ³       
+³       ÀÄÄÄv16
+ÃÄÄÄimages
+³       graphBackGround.svg
+³       network.png
+³       network2.png
+³       
+ÀÄÄÄlearn
+        ML_Cheatsheet.jpeg
+        
