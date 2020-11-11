@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #D9E8F5;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        th {
+            border: 1px solid #172B3D;
+            text-align: left;
+            padding: 1px;
+            background-color: #172B3D;
+        }
+
+        tr.spaceUnder > td {
+            padding-bottom: 1em;
+        }
+
+        tr:nth-child(even) {
+        }
+
+        .button {
+            border: none;
+            color: white !important;
+            padding: 10px 22px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            background-color: #172B3D;            
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr class="spaceUnder">
+            <th>
+                <img src="https://naveenalavilli.github.io/assets/images/emailyt/EmailytLogoHeader.JPG" />
+            </th>
+        </tr>
+        <tr class="spaceUnder">
+            <td style="padding-top:1em"> <span> Hi there!</span></td>
+        </tr>
+        <tr class="spaceUnder">
+            <td>
+                Let's confirm your Reply-To email($ReplyToEmail$). 
+            </td>
+        </tr>
+        
+        <tr class="spaceUnder">
+            <td style="margin-left:5%">
+                <a class="button" href="$CONFIRMREPLYTOURL$">Confirm</a>
+            </td>
+        </tr>
+
+        <tr class="spaceUnder">
+            <td>
+                If this button doesn't work, please use the link below:
+            </td>
+        </tr>
+
+        <tr class="spaceUnder">
+            <td>
+                $CONFIRMREPLYTOURL$
+            </td>
+        </tr>
+
+        <tr class="spaceUnder">
+            <td style="">
+                For further technical questions and support, please contact us at <a href="mailto:info@emailyt.com"> info@emailyt.com</a>
+            </td>
+        </tr>
+
+        <!--<tr class="spaceUnder">
+            <td style="">
+                We are looking forward to cooperating with you!
+            </td>
+        </tr>-->
+
+        <tr class="spaceUnder">
+            <td style="">
+                Best Regards,<br />
+                <span style="font-weight:bold"> Emailyt team </span><br />
+                <a style="padding-top:0.2em" href="https://litemailer.azurewebsites.net">www.emailyt.com</a>
+            </td>
+        </tr>
+
+        <tr class="spaceUnder">
+            <td style="padding-top:2em;text-align:center">
+                <a href="#" target="_blank" style=text-decoration:none>
+                    <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-48.png" alt="LinkedIn" style="display:inline" height="24" width="24">
+                </a>
+                &nbsp;
+                <a href="#" target="_blank" style=text-decoration:none>
+                    <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" alt="Facebook" style="display:inline" height="24" width="24">
+                </a>
+                &nbsp;
+                <a href="#" target="_blank" style=text-decoration:none><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" alt="Twitter" style="display:inline" height="24" width="24"></a>
+            </td>
+        </tr>
+
+    </table>
+    <hr style="background-color:#D9E8F5;margin-left:15%;margin-right:15%" />
+    <div style="text-align:center;font-size:small;font-style:italic">
+        Emailyt &copy; All rights reserved
+    </div>
+    <br />
+    <div style="text-align:center">
+        <a href="mailto:info@emailyt.com" style="font-size:smaller"> info@emailyt.com</a>
+    </div>
+
+</body>
+</html>
