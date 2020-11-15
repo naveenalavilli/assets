@@ -1,0 +1,467 @@
+<html lang="en" class="js no-touchevents cssanimations csstransitions" style=""><canvas id="demo-canvas" width="1499" height="3139"></canvas><!--<![endif]--><head>
+        <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Development Plan for My Blog | Lei’s Blog</title>
+<meta name="generator" content="Jekyll v3.8.7">
+<meta property="og:title" content="Development Plan for My Blog">
+<meta name="author" content="Lei Liu">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Current blog derives from Moon Jekyll Theme, and I am keeping adding new features and making improvemnt. This post is a record of what I did and I am planning to do.">
+<meta property="og:description" content="Current blog derives from Moon Jekyll Theme, and I am keeping adding new features and making improvemnt. This post is a record of what I did and I am planning to do.">
+<link rel="canonical" href="https://lei1025.github.io/Blog-development-plan/">
+<meta property="og:url" content="https://lei1025.github.io/Blog-development-plan/">
+<meta property="og:site_name" content="Lei’s Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2019-02-14T00:00:00+00:00">
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Development Plan for My Blog","dateModified":"2019-02-14T00:00:00+00:00","datePublished":"2019-02-14T00:00:00+00:00","url":"https://lei1025.github.io/Blog-development-plan/","mainEntityOfPage":{"@type":"WebPage","@id":"https://lei1025.github.io/Blog-development-plan/"},"author":{"@type":"Person","name":"Lei Liu"},"description":"Current blog derives from Moon Jekyll Theme, and I am keeping adding new features and making improvemnt. This post is a record of what I did and I am planning to do.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://lei1025.github.io/assets/img/logo.png"},"name":"Lei Liu"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+   
+    
+    <meta charset="UTF-8">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Development Plan for My Blog – Lei's Blog</title>
+    <meta name="description" content="I'm a programmer based in Toronto, Canada, currently engaging in web development.">
+    <meta name="keywords" content="GithubPage, jekyll">
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://lei1025.github.io/assets/img/logo.png">
+    <meta name="twitter:title" content="Development Plan for My Blog">
+    <meta name="twitter:description" content="  Current blog derives from Moon Jekyll Theme, and I am keeping adding new features and making improvemnt. This post is a record of what I did and I am planning to do.">
+    
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Development Plan for My Blog">
+    <meta property="og:description" content="  Current blog derives from Moon Jekyll Theme, and I am keeping adding new features and making improvemnt. This post is a record of what I did and I am planning to do.">
+    <meta property="og:url" content="https://lei1025.github.io/Blog-development-plan/">
+    <meta property="og:site_name" content="Lei's Blog">
+    <meta property="og:image" content="https://lei1025.github.io/assets/img/logo.png">
+    
+    
+    
+    <link rel="canonical" href="https://lei1025.github.io/Blog-development-plan/">
+    <link href="https://lei1025.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Lei's Blog Feed">
+    <!-- Handheld -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://lei1025.github.io/assets/css/main.css">
+    <!-- JS -->
+    <script src="https://lei1025.github.io/assets/js/modernizr-3.3.1.custom.min.js"></script>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" type="image/png" href="https://lei1025.github.io/favicon.png">
+    <!--link rel="apple-touch-icon" sizes="72x72" href="https://lei1025.github.io/assets/img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://lei1025.github.io/assets/img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://lei1025.github.io/assets/img/favicons/apple-icon-144x144.png"-->
+    <link rel="shortcut icon" type="image/png" href="https://lei1025.github.io/favicon.png">
+    <link rel="shortcut icon" href="https://lei1025.github.io/favicon.ico">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Fredericka+the+Great" rel="stylesheet">
+    <link href="https://lei1025.github.io/assets/fonts/fontawesome-5.8.1/css/all.css" rel="stylesheet"> 
+    <!-- Background Image -->
+    
+    
+    
+    <!--style type="text/css">body {background-image:url(https://lei1025.github.io/assets/img/background2.jpg); }</style-->
+    <style type="text/css">body {
+        background-image: url(https://lei1025.github.io/assets/img/background2.jpg);
+        background-repeat: no-repeat; 
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        z-index: 1;
+    }</style>
+    
+    <!-- Post Feature Image -->
+    
+    <!--Pace.js-->
+    <script src="https://lei1025.github.io/assets/js/pace.min.js"></script>
+
+    <link href="https://lei1025.github.io/assets/css/pace.css" rel="stylesheet">
+
+    <script src="https://lei1025.github.io/assets/js/jquery-1.12.0.min.js"></script>
+
+<style type="text/css">.v[data-class=v]{font-size:16px;text-align:left}.v[data-class=v] *{-webkit-box-sizing:border-box;box-sizing:border-box;line-height:1.75}.v[data-class=v] .status-bar,.v[data-class=v] .veditor,.v[data-class=v] .vinput,.v[data-class=v] p,.v[data-class=v] pre code{color:#555}.v[data-class=v] .vsys,.v[data-class=v] .vtime{color:#b3b3b3}.v[data-class=v] .text-right{text-align:right}.v[data-class=v] .text-center{text-align:center}.v[data-class=v] img{max-width:100%;border:none}.v[data-class=v] hr{margin:.825em 0;border-color:#f6f6f6;border-style:dashed}.v[data-class=v].hide-avatar .vimg{display:none}.v[data-class=v] a{position:relative;cursor:pointer;color:#1abc9c;text-decoration:none;display:inline-block}.v[data-class=v] a:hover{color:#d7191a}.v[data-class=v] code,.v[data-class=v] pre{background-color:#f8f8f8;padding:.2em .4em;border-radius:3px;font-size:85%;margin:0}.v[data-class=v] pre{padding:10px;overflow:auto;line-height:1.45}.v[data-class=v] pre code{padding:0;background:transparent;white-space:pre-wrap;word-break:keep-all}.v[data-class=v] blockquote{color:#666;margin:.5em 0;padding:0 0 0 1em;border-left:8px solid hsla(0,0%,93%,.5)}.v[data-class=v] .vinput{border:none;resize:none;outline:none;padding:10px 5px;max-width:100%;font-size:.775em}.v[data-class=v] input[type=checkbox],.v[data-class=v] input[type=radio]{display:inline-block;vertical-align:middle;margin-top:-2px}.v[data-class=v] .vicon{cursor:pointer;display:inline-block;overflow:hidden;fill:#555;vertical-align:middle}.v[data-class=v] .vicon+.vicon{margin-left:10px}.v[data-class=v] .vicon.actived{fill:#66b1ff}.v[data-class=v] .vrow{font-size:0;padding:10px 0}.v[data-class=v] .vrow .vcol{display:inline-block;vertical-align:middle;font-size:14px}.v[data-class=v] .vrow .vcol.vcol-20{width:20%}.v[data-class=v] .vrow .vcol.vcol-30{width:30%}.v[data-class=v] .vrow .vcol.vcol-40{width:40%}.v[data-class=v] .vrow .vcol.vcol-50{width:50%}.v[data-class=v] .vrow .vcol.vcol-60{width:60%}.v[data-class=v] .vrow .vcol.vcol-70{width:70%}.v[data-class=v] .vrow .vcol.vcol-80{width:80%}.v[data-class=v] .vrow .vcol.vctrl{font-size:12px}.v[data-class=v] .emoji,.v[data-class=v] .vemoji{max-width:25px;vertical-align:middle;margin:0 1px;display:inline-block}.v[data-class=v] .vwrap{border:1px solid #f0f0f0;border-radius:4px;margin-bottom:10px;overflow:hidden;position:relative;padding:10px}.v[data-class=v] .vwrap input{background:transparent}.v[data-class=v] .vwrap .vedit{position:relative;padding-top:10px}.v[data-class=v] .vwrap .cancel-reply-btn{position:absolute;right:5px;top:5px;cursor:pointer}.v[data-class=v] .vwrap .vemojis{display:none;font-size:18px;max-height:145px;overflow:auto;padding-bottom:10px;-webkit-box-shadow:0 0 1px #f0f0f0;box-shadow:0 0 1px #f0f0f0}.v[data-class=v] .vwrap .vemojis i{font-style:normal;padding-top:7px;width:36px;cursor:pointer;text-align:center;display:inline-block;vertical-align:middle}.v[data-class=v] .vwrap .vpreview{padding:7px;-webkit-box-shadow:0 0 1px #f0f0f0;box-shadow:0 0 1px #f0f0f0}.v[data-class=v] .vwrap .vheader .vinput{width:33.33%;border-bottom:1px dashed #dedede}.v[data-class=v] .vwrap .vheader.item2 .vinput{width:50%}.v[data-class=v] .vwrap .vheader.item1 .vinput{width:100%}.v[data-class=v] .vwrap .vheader .vinput:focus{border-bottom-color:#eb5055}@media screen and (max-width:520px){.v[data-class=v] .vwrap .vheader.item2 .vinput,.v[data-class=v] .vwrap .vheader .vinput{width:100%}}.v[data-class=v] .vpower{color:#999;font-size:.75em;padding:.5em 0}.v[data-class=v] .vpower a{font-size:.75em}.v[data-class=v] .vcount{padding:5px;font-weight:600;font-size:1.25em}.v[data-class=v] ol,.v[data-class=v] ul{padding:0;margin-left:1.25em}.v[data-class=v] .txt-center{text-align:center}.v[data-class=v] .txt-right{text-align:right}.v[data-class=v] .pd5{padding:5px}.v[data-class=v] .pd10{padding:10px}.v[data-class=v] .veditor{width:100%;min-height:8.75em;font-size:.875em;background:transparent;resize:vertical;-webkit-transition:all .25s ease;transition:all .25s ease}.v[data-class=v] .vbtn{-webkit-transition-duration:.4s;transition-duration:.4s;text-align:center;color:#555;border:1px solid #ededed;border-radius:.3em;display:inline-block;background:transparent;margin-bottom:0;font-weight:400;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;white-space:nowrap;padding:.5em 1.25em;font-size:.875em;line-height:1.42857143;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;outline:none}.v[data-class=v] .vbtn+.vbtn{margin-left:1.25em}.v[data-class=v] .vbtn:active,.v[data-class=v] .vbtn:hover{color:#3090e4;border-color:#3090e4}.v[data-class=v] .vbtn:disabled{border-color:#e1e1e1;color:#e1e1e1;background-color:#fdfafa;cursor:not-allowed}.v[data-class=v] .vempty{padding:1.25em;text-align:center;color:#555;overflow:auto}.v[data-class=v] .vsys{display:inline-block;padding:.2em .5em;font-size:.75em;border-radius:.2em;margin-right:.3em}@media screen and (max-width:520px){.v[data-class=v] .vsys{display:none}}.v[data-class=v] .vcards{width:100%}.v[data-class=v] .vcards .vcard{padding-top:1.25em;position:relative;display:block}.v[data-class=v] .vcards .vcard:after{content:"";clear:both;display:block}.v[data-class=v] .vcards .vcard .vimg{width:3.125em;height:3.125em;float:left;border-radius:50%;margin-right:.7525em;border:1px solid #f5f5f5;padding:.125em}@media screen and (max-width:720px){.v[data-class=v] .vcards .vcard .vimg{width:2.5em;height:2.5em}}.v[data-class=v] .vcards .vcard .vhead{line-height:1.5;margin-top:0}.v[data-class=v] .vcards .vcard .vhead .vnick{position:relative;font-size:.875em;font-weight:500;margin-right:.875em;cursor:pointer;text-decoration:none;display:inline-block}.v[data-class=v] .vcards .vcard .vhead .vnick:hover{color:#d7191a}.v[data-class=v] .vcards .vcard .vh{overflow:hidden;padding-bottom:.5em;border-bottom:1px dashed #f5f5f5}.v[data-class=v] .vcards .vcard .vh .vtime{font-size:.75em;margin-right:.875em}.v[data-class=v] .vcards .vcard .vh .vmeta{line-height:1;position:relative}.v[data-class=v] .vcards .vcard .vh .vmeta .vat{font-size:.8125em;color:#ef2f11;cursor:pointer;float:right}.v[data-class=v] .vcards .vcard:last-child .vh{border-bottom:none}.v[data-class=v] .vcards .vcard .vcontent{word-wrap:break-word;word-break:break-all;font-size:.875em;line-height:2;position:relative;margin-bottom:.75em;padding-top:.625em}.v[data-class=v] .vcards .vcard .vcontent.expand{cursor:pointer;max-height:8em;overflow:hidden}.v[data-class=v] .vcards .vcard .vcontent.expand:before{display:block;content:"";position:absolute;width:100%;left:0;top:0;bottom:3.15em;background:-webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),to(hsla(0,0%,100%,.9)));background:linear-gradient(180deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.9));z-index:999}.v[data-class=v] .vcards .vcard .vcontent.expand:after{display:block;content:attr(data-expand);text-align:center;color:#828586;position:absolute;width:100%;height:3.15em;line-height:3.15em;left:0;bottom:0;z-index:999;background:hsla(0,0%,100%,.9)}.v[data-class=v] .vcards .vcard .vquote{padding-left:1em;border-left:1px dashed hsla(0,0%,93%,.5)}.v[data-class=v] .vcards .vcard .vquote .vimg{width:2.225em;height:2.225em}.v[data-class=v] .vpage .vmore{margin:1em 0}.v[data-class=v] .clear{content:"";display:block;clear:both}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@-webkit-keyframes pulse{50%{background:#dcdcdc}}@keyframes pulse{50%{background:#dcdcdc}}.v[data-class=v] .vspinner{width:22px;height:22px;display:inline-block;border:6px double #a0a0a0;border-top-color:transparent;border-bottom-color:transparent;border-radius:50%;-webkit-animation:spin 1s infinite linear;animation:spin 1s infinite linear;position:relative;vertical-align:middle;margin:0 5px}.dark .v[data-class=v] .status-bar,.dark .v[data-class=v] .veditor,.dark .v[data-class=v] .vinput,.dark .v[data-class=v] p,.dark .v[data-class=v] pre code,.night .v[data-class=v] .status-bar,.night .v[data-class=v] .veditor,.night .v[data-class=v] .vinput,.night .v[data-class=v] p,.night .v[data-class=v] pre code,.theme__dark .v[data-class=v] .status-bar,.theme__dark .v[data-class=v] .veditor,.theme__dark .v[data-class=v] .vinput,.theme__dark .v[data-class=v] p,.theme__dark .v[data-class=v] pre code,[data-theme=dark] .v[data-class=v] .status-bar,[data-theme=dark] .v[data-class=v] .veditor,[data-theme=dark] .v[data-class=v] .vinput,[data-theme=dark] .v[data-class=v] p,[data-theme=dark] .v[data-class=v] pre code{color:#b2b2b5}.dark .v[data-class=v] .vsys,.dark .v[data-class=v] .vtime,.night .v[data-class=v] .vsys,.night .v[data-class=v] .vtime,.theme__dark .v[data-class=v] .vsys,.theme__dark .v[data-class=v] .vtime,[data-theme=dark] .v[data-class=v] .vsys,[data-theme=dark] .v[data-class=v] .vtime{color:#929298}.dark .v[data-class=v] code,.dark .v[data-class=v] pre,.dark .v[data-class=v] pre code,.night .v[data-class=v] code,.night .v[data-class=v] pre,.night .v[data-class=v] pre code,.theme__dark .v[data-class=v] code,.theme__dark .v[data-class=v] pre,.theme__dark .v[data-class=v] pre code,[data-theme=dark] .v[data-class=v] code,[data-theme=dark] .v[data-class=v] pre,[data-theme=dark] .v[data-class=v] pre code{color:#929298;background-color:#151414}.dark .v[data-class=v] .vwrap,.night .v[data-class=v] .vwrap,.theme__dark .v[data-class=v] .vwrap,[data-theme=dark] .v[data-class=v] .vwrap{border-color:#b2b2b5}.dark .v[data-class=v] .vicon,.night .v[data-class=v] .vicon,.theme__dark .v[data-class=v] .vicon,[data-theme=dark] .v[data-class=v] .vicon{fill:#b2b2b5}.dark .v[data-class=v] .vicon.actived,.night .v[data-class=v] .vicon.actived,.theme__dark .v[data-class=v] .vicon.actived,[data-theme=dark] .v[data-class=v] .vicon.actived{fill:#66b1ff}.dark .v[data-class=v] .vbtn,.night .v[data-class=v] .vbtn,.theme__dark .v[data-class=v] .vbtn,[data-theme=dark] .v[data-class=v] .vbtn{color:#b2b2b5;border-color:#b2b2b5}.dark .v[data-class=v] .vbtn:hover,.night .v[data-class=v] .vbtn:hover,.theme__dark .v[data-class=v] .vbtn:hover,[data-theme=dark] .v[data-class=v] .vbtn:hover{color:#66b1ff;border-color:#66b1ff}.dark .v[data-class=v] a:hover,.night .v[data-class=v] a:hover,.theme__dark .v[data-class=v] a:hover,[data-theme=dark] .v[data-class=v] a:hover{color:#d7191a}.dark .v[data-class=v] .vcards .vcard .vcontent.expand:before,.night .v[data-class=v] .vcards .vcard .vcontent.expand:before,.theme__dark .v[data-class=v] .vcards .vcard .vcontent.expand:before,[data-theme=dark] .v[data-class=v] .vcards .vcard .vcontent.expand:before{background:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.3)),to(rgba(0,0,0,.7)));background:linear-gradient(180deg,rgba(0,0,0,.3),rgba(0,0,0,.7))}.dark .v[data-class=v] .vcards .vcard .vcontent.expand:after,.night .v[data-class=v] .vcards .vcard .vcontent.expand:after,.theme__dark .v[data-class=v] .vcards .vcard .vcontent.expand:after,[data-theme=dark] .v[data-class=v] .vcards .vcard .vcontent.expand:after{background:rgba(0,0,0,.7)}@media (prefers-color-scheme:dark){.v[data-class=v] .status-bar,.v[data-class=v] .veditor,.v[data-class=v] .vinput,.v[data-class=v] p,.v[data-class=v] pre code{color:#b2b2b5}.v[data-class=v] .vsys,.v[data-class=v] .vtime{color:#929298}.v[data-class=v] code,.v[data-class=v] pre,.v[data-class=v] pre code{color:#929298;background-color:#151414}.v[data-class=v] .vwrap{border-color:#b2b2b5}.v[data-class=v] .vicon{fill:#b2b2b5}.v[data-class=v] .vicon.actived{fill:#66b1ff}.v[data-class=v] .vbtn{color:#b2b2b5;border-color:#b2b2b5}.v[data-class=v] .vbtn:hover{color:#66b1ff;border-color:#66b1ff}.v[data-class=v] a:hover{color:#d7191a}.v[data-class=v] .vcards .vcard .vcontent.expand:before{background:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.3)),to(rgba(0,0,0,.7)));background:linear-gradient(180deg,rgba(0,0,0,.3),rgba(0,0,0,.7))}.v[data-class=v] .vcards .vcard .vcontent.expand:after{background:rgba(0,0,0,.7)}}</style><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+<body class="pace-done"><div id="MathJax_Message" style="display: none;"></div><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+    <div id="preloader" style="display: none;">
+    <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    
+
+
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+    <button class="dl-trigger">Open Menu</button>
+    <ul class="dl-menu">
+        <li><a href="https://lei1025.github.io/">Home</a></li>
+        <li>
+            <a href="#">About</a>
+            <ul class="dl-submenu"><li class="dl-back"><a href="#">back</a></li>
+                <li>
+                    <img src="https://lei1025.github.io/assets/img/logo.png" alt="Lei's Blog photo" class="author-photo">
+                    <h4>Lei's Blog</h4>
+                    <p>I'm a programmer based in Toronto, Canada, currently engaging in web development.</p>
+                </li>
+                <li><a href="https://lei1025.github.io/about/"><span class="btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn ripple-btn-inverse">Learn More</span></a></li>
+                <li>
+                    <a href="mailto:llei1025@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-envelope-square"></i> Email</a>
+                </li>
+                
+                <li>
+                    <a href="http://facebook.com/lei6745" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook-square"></i> Facebook</a>
+                </li>
+                
+                <li>
+                    <a href="http://linkedin.com/in/lei-liu-1025" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin"></i> LinkedIn</a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href="http://github.com/lei1025" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-github"></i> Github</a>
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </ul><!-- /.dl-submenu -->
+        </li>
+        <li>
+            <a href="https://lei1025.github.io/posts/">Posts</a>
+        </li>
+        <li>
+            <a href="#">Tags</a>
+            <ul class="dl-submenu"><li class="dl-back"><a href="#">back</a></li>
+                <li><a href="/tags"><span class="fas fa-tags"></span>  ALL TAGs</a></li>
+                
+                
+                <li><a href="/tags/#.net" class="tag-name">.net    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#ajax" class="tag-name">ajax    <span class="tag-circle-num">2</span></a></li>
+                
+                
+                <li><a href="/tags/#Algorithm" class="tag-name">Algorithm    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#Amazon" class="tag-name">Amazon    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#async" class="tag-name">async    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#autoprefixer" class="tag-name">autoprefixer    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#AWS" class="tag-name">AWS    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#c#" class="tag-name">c#    <span class="tag-circle-num">2</span></a></li>
+                
+                
+                <li><a href="/tags/#CMS" class="tag-name">CMS    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#css" class="tag-name">css    <span class="tag-circle-num">3</span></a></li>
+                
+                
+                <li><a href="/tags/#Domain" class="tag-name">Domain    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#ElasticBeanstalk" class="tag-name">ElasticBeanstalk    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#example" class="tag-name">example    <span class="tag-circle-num">4</span></a></li>
+                
+                
+                <li><a href="/tags/#GithubPage" class="tag-name">GithubPage    <span class="tag-circle-num">5</span></a></li>
+                
+                
+                <li><a href="/tags/#Google" class="tag-name">Google    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#GoogleCharts" class="tag-name">GoogleCharts    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#html" class="tag-name">html    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#install" class="tag-name">install    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#interview" class="tag-name">interview    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#Java" class="tag-name">Java    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#javascript" class="tag-name">javascript    <span class="tag-circle-num">5</span></a></li>
+                
+                
+                <li><a href="/tags/#javaScript" class="tag-name">javaScript    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#jekyll" class="tag-name">jekyll    <span class="tag-circle-num">4</span></a></li>
+                
+                
+                <li><a href="/tags/#jquery" class="tag-name">jquery    <span class="tag-circle-num">2</span></a></li>
+                
+                
+                <li><a href="/tags/#js" class="tag-name">js    <span class="tag-circle-num">6</span></a></li>
+                
+                
+                <li><a href="/tags/#jsx" class="tag-name">jsx    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#KNN" class="tag-name">KNN    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#liquid" class="tag-name">liquid    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#Netlify" class="tag-name">Netlify    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#plugin" class="tag-name">plugin    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#Project" class="tag-name">Project    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#react" class="tag-name">react    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#regex" class="tag-name">regex    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#script" class="tag-name">script    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#scrollnav" class="tag-name">scrollnav    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#scrollspy" class="tag-name">scrollspy    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#setInterval" class="tag-name">setInterval    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#sort" class="tag-name">sort    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#studynotes" class="tag-name">studynotes    <span class="tag-circle-num">2</span></a></li>
+                
+                
+                <li><a href="/tags/#submit" class="tag-name">submit    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#tag" class="tag-name">tag    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#TOC" class="tag-name">TOC    <span class="tag-circle-num">1</span></a></li>
+                
+                
+                <li><a href="/tags/#XSL" class="tag-name">XSL    <span class="tag-circle-num">1</span></a></li>
+                
+            </ul>
+        </li>
+        
+        
+        <li><a href="https://lei1025.github.io/projects/">Projects</a></li>
+        
+    </ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        
+    </header>
+
+    <script src="https://lei1025.github.io/assets/js/scrollnav.min.umd.js"></script>
+    <script>
+        //Scroll Nav
+        const content = document.querySelector('.post-article');
+        scrollnav.init(content, {
+            debug: false,
+            //easingStyle: 'linear',
+            sections: ($('.post-content > h1').length > 0) ? 'h1' : 'h2',
+            subSections: ($('.post-content > h1').length > 0) ? 'h2' : 'h3'
+        });
+        //Dynamically positon
+        var sideNav = function () {
+            var mainRect = document.getElementById('post-content').getBoundingClientRect();
+            //var oldReac = document.getElementsByClassName('scroll-nav')[0].getBoundingClientRect();
+            $('#post-content > div.content.loading > nav').css('left', mainRect.right + 10 + 'px');
+        }
+
+        sideNav();
+        window.addEventListener("resize", sideNav);            
+    </script>
+    <!-- JS -->
+<script src="https://lei1025.github.io/assets/js/jquery.dlmenu.min.js"></script>
+<script src="https://lei1025.github.io/assets/js/jquery.goup.min.js"></script>
+<script src="https://lei1025.github.io/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="https://lei1025.github.io/assets/js/jquery.fitvid.min.js"></script>
+<script src="https://lei1025.github.io/assets/js/scripts.js"></script>
+
+<!--background animation-->
+<script src="https://lei1025.github.io/assets/js/bg-star-animation/EasePack.min.js"></script>
+<script src="https://lei1025.github.io/assets/js/bg-star-animation/rAF.js"></script>
+<script src="https://lei1025.github.io/assets/js/bg-star-animation/TweenLite.min.js"></script>
+<script src="https://lei1025.github.io/assets/js/bg-star-animation/bg-star-animation.js"></script>
+
+<!--Comment Block-->
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+    if ($("header").length == 1) {
+        $("header").children(":first").append('<div id="vcomments"></div>');
+    }
+
+    new Valine({
+        el: '#vcomments',
+        appId: '6IYnxBunBTwAmjRAQH9z22cs-MdYXbMMI',
+        appKey: 'HWyXYJIYdeSA3Yr9gyCS9kvv',
+        notify: false,
+        verify: true,
+        avatar: 'mp',
+        placeholder: ' ',
+        lang: 'en',
+        visitor: true
+    })
+</script>
+
+
+    
+    <!-- MathJax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" id=""></script>
+    
+    <!--social share icons-->
+    <script asunc="" type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c93e88014e26421"></script>  
+
+
+
+<div style="display: none; position: fixed; width: 40px; height: 40px; background: rgb(255, 255, 255); cursor: pointer; bottom: 10px; right: 20px; border-radius: 0px;" class="goup-container" title=""><div class="goup-arrow" style="width: 0px; height: 0px; margin: 0px auto; padding-top: 13px; border-style: solid; border-width: 0px 10px 10px; border-color: transparent transparent rgb(0, 0, 0);"></div></div></body></html>
