@@ -1,6 +1,4 @@
-
-[
-  
+[  
     {"city": "Abbeville", "state": "Louisiana"},
     {"city": "Aberdeen", "state": "Maryland"},
     {"city": "Aberdeen", "state": "Mississippi"},
@@ -5980,5 +5978,5 @@
   {"city": "Zephyrhills", "state": "Florida"},
   {"city": "Zion", "state": "Illinois"},
   {"city": "Zionsville", "state": "Indiana"},
-  {"city": "Zuni Pueblo", "state": "New Mexico"},
-    ]
+  {"city": "Zuni Pueblo", "state": "New Mexico"}
+]
